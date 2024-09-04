@@ -1,6 +1,6 @@
 # generate-multiview-images
 
-This project provides a set of tools to generate multi-view images from STL files using Blender. The script processes STL files, arranges the parts, sets up the scene, and renders images from multiple views. The final output includes a composite image showing different views of the 3D model.
+This project provides a set of tools to generate multi-view images from STL files using Blender. The script processes STL files, arranges the parts, sets up the scene, and renders images from multiple views. The final output includes a composite image showing different views of the 3D model. The goal is to train a diffusion model, like FLUX, to generate multiview images of articulating 3d models.
 
 ## Features
 
