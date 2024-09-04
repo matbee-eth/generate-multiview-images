@@ -36,9 +36,9 @@ This project provides a set of tools to generate multi-view images from STL file
    - Place your main image in a directory named `IMG`.
 
 2. **Run the Script**:
-   - Open Blender and go to the scripting tab.
-   - Load the `merged.py` script.
-   - Run the script.
+   ```sh
+       ./blender-4.2.1-linux-x64/blender --background --python ./merged.py
+   ```
 
 3. **Script Execution**:
    - The script will process each STL file in the `File` or `Files` directory.
